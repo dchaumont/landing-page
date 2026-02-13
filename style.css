@@ -17,6 +17,7 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     margin: 12px;
+    font-weight: 900;
 }
 
 .links {
@@ -69,4 +70,13 @@ button {
     font-size: 16px;
     font-weight: 900;
     padding: 4px 16px;
+}
+
+.p-container {
+    display: flex;
+}
+
+.power {
+    width: 84px;
+    height: auto;
 }

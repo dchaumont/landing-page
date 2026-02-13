@@ -139,6 +139,7 @@ footer {
     background-color: #3882F6;
     justify-content: space-between;
     color: #E5E7EB;
+    border-radius: 6px;
 }
 
 .ctatitle {

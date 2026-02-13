@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .header {
@@ -72,11 +73,36 @@ button {
     padding: 4px 16px;
 }
 
+.powers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 32px;
+}
+
 .p-container {
     display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 168px;
 }
 
 .power {
     width: 84px;
-    height: auto;
+    height: 84px;
+    align-self: center;
+    border: 2px solid #3882F6;
+    border-radius: 6px;
+    padding: 2px;
 }

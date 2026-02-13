@@ -9,6 +9,14 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 8px 96px 32px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 12px;
 }
 
 .links {
@@ -19,4 +27,46 @@ body {
     gap: 8px;
     justify-content: center;
     align-items: center;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 32px 98px 98px;
+}
+
+.h-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.h-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.h-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.spider-man {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    align-self: flex-start;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 4px 16px;
 }
